@@ -1,0 +1,24 @@
+{
+  "name": "minCalendar",
+  "version": "0.1.0",
+  "description": "A chrome extension to display a simple calendar.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Alex1990/minCalendar"
+  },
+  "author": "Alex Chao <alexchao1990@gmail.com> (http://www.xiaocaoge.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-imagemin": "~0.8.1",
+    "grunt-newer": "~0.7.0"
+  },
+  "keywords": [
+    "calendar",
+    "date"
+  ]
+}
