@@ -2,6 +2,9 @@
 
 module.exports = function(grunt) {
 
+    // Load all grunt tasks
+    require('load-grunt-tasks')(grunt);
+
     // Projest configuration.
     grunt.initConfig({
         copy: {
@@ -46,13 +49,6 @@ module.exports = function(grunt) {
             }
         }
     });
-
-    
-    grunt.loadNpmTasks('grunt-newer');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     grunt.registerTask('build', ['newer:copy', 'newer:uglify', 'newer:cssmin', 'newer:imagemin']);
 

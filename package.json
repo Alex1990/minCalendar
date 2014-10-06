@@ -15,7 +15,8 @@
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-contrib-cssmin": "~0.10.0",
     "grunt-contrib-imagemin": "~0.8.1",
-    "grunt-newer": "~0.7.0"
+    "grunt-newer": "~0.7.0",
+    "load-grunt-tasks": "~0.6.0"
   },
   "keywords": [
     "calendar",
