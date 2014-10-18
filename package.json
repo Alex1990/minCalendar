@@ -1,6 +1,6 @@
 {
   "name": "minCalendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A chrome extension to display a simple calendar.",
   "repository": {
     "type": "git",

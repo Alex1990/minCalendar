@@ -10,7 +10,7 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font: 16px Arial, sans-serif;
     background-color: #aaa;
 }
 ul {
@@ -58,7 +58,7 @@ ul {
 
 .calendar {
     width: 350px;
-    background-color: #fafafa;
+    background-color: #fcfcfc;
 }
 .calendar * {
     -webkit-user-select: none;
@@ -76,21 +76,26 @@ ul {
 .cl-next-year,
 .cl-prev-month,
 .cl-next-month {
-    color: #aaa;
+    color: #ccc;
     cursor: pointer;
 }
 .cl-prev-year:hover,
 .cl-next-year:hover,
 .cl-prev-month:hover,
 .cl-next-month:hover {
-    color: #777;
+    color: #999;
 }
 .cl-year-list,
 .cl-month-list {
     padding: 0 5px;
     font-size: 16px;
-    color: #555;
+    color: #777;
+    border-color: #ccc;
     outline: none;
+}
+.cl-year-list:hover,
+.cl-month-list:hover {
+    border-color: #999;
 }
 .cl-current {
     margin-right: 15px;
@@ -132,6 +137,7 @@ ul {
     height: 40px;
     line-height: 40px;
     text-align: center;
+    color: #aaa;
     cursor: default;
 }
 .days-list li {
@@ -142,28 +148,28 @@ ul {
     line-height: 30px;
     text-align: right;
     color: #444;
-    -webkit-transition: background-color .15s ease-in;
-    transition: background-color .15s ease-in;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
 }
 .days-list li:hover {
-    background-color: #eaeaea;
+    background-color: #eee;
     color: #000;
     cursor: default;
 }
 .days-list .weekend,
 .days-list .weekend:hover {
-    color: #f60;
+    color: #f65;
 }
 .days-list .prev-month,
 .days-list .next-month,
 .days-list .prev-month:hover,
 .days-list .next-month:hover {
-    color: #ccc;
+    color: #ddd;
     background-color: #fafafa;
 }
 .days-list .now,
 .days-list .now:hover {
-    background-color: #3bf;
+    background-color: #f65;
     color: #fff;
     text-shadow: 0 0 4px #777;
 }
